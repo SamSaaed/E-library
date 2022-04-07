@@ -1,9 +1,7 @@
 <?php
-namespace App\Controller;
+namespace app\app\controllers;
 
-use App\Core;
-use App\Model;
-use App\Utility;
+use app\app\models\AUthor;
 
 class AuthorsController{
 

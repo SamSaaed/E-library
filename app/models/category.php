@@ -1,8 +1,6 @@
 <?php
 
-namespace App\Model;
-
-
+namespace app\app\models;
 
 class Category extends Model{
     function __construct()

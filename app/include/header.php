@@ -20,7 +20,7 @@
     <li><a href="#"><img src="../public/img/07.JPG"></a></li>
     <li><a href="#">المفضلة</a></li>
     <li><a href="#"><img src="../public/img/08.JPG"></a></li>
-    <li><a href="register/index1.php" class="show-modal-btn" onclick="callLink(this);" alt=""> <span>ادخل لحسابك أو سجل الان</span></a></li>
-    <li><a href="#"><img src="../public/img/09.JPG"></a></li>
+    <li><a href="#" class="show-modal-btn" onclick="callLink(this);" alt=""> <span>ادخل لحسابك أو سجل الان</span></a></li>
+    <li><a href="../veiws/"><img src="../public/img/09.JPG"></a></li>
 </ul>
 </div>

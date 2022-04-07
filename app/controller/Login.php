@@ -1,10 +1,8 @@
 <?php
 
-namespace App\Controller;
+namespace app\app\controllers;
 
-use App\Core;
-use App\Model;
-use App\Utility;
+use app\app\models\Category;
 
 /**
  * Login Controller:
@@ -12,7 +10,7 @@ use App\Utility;
  * @author Andrew Dyer <andrewdyer@outlook.com>
  * @since 1.0.2
  */
-class Login extends Core\Controller {
+class Login extends Controller {
 
     /**
      * Index: Renders the login view. NOTE: This controller can only be accessed
@@ -52,6 +50,16 @@ class Login extends Core\Controller {
             Utility\Redirect::to(APP_URL);
         }
         Utility\Redirect::to(APP_URL . "login");
+    }
+
+    public function checked($password){
+
+        if ($password =="1234"){
+            require_once __DIR__."/../home.php";
+        }
+        else
+         require_once __DIR__."/../index.php";
+
     }
 
     /**

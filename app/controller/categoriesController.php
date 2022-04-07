@@ -1,10 +1,8 @@
 <?php
 
-namespace App\Controller;
+namespace app\app\controllers;
 
-use App\Core;
-use App\Model;
-use App\Utility;
+use app\app\models\Category;
 
 class CategoriesController extends Controller{
 
@@ -17,7 +15,7 @@ class CategoriesController extends Controller{
 
     }
     function create(){
-        $this->view('add_category');
+        $this->view('add_category.php');
 
     }
 

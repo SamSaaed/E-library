@@ -1,9 +1,6 @@
 <?php 
-namespace App\Model;
-
-use Exception;
-use App\Utility;
-
+namespace app\app\models;
+use app\app\system\AppSystem;
 class Model{
     public static  $tblName;
    

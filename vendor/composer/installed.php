@@ -6,11 +6,11 @@
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'reference' => NULL,
-        'name' => 'superlap/e-libraries',
+        'name' => 'ahlam/mvc1',
         'dev' => true,
     ),
     'versions' => array(
-        'superlap/e-libraries' => array(
+        'ahlam/mvc1' => array(
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',
             'type' => 'library',
